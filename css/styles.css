@@ -30,7 +30,6 @@
 .navigation {
   width: 1600px;
   height: 80px;
-  margin-bottom: 50px;
   border-bottom: 1px;
   border-bottom-style: solid;
   border-bottom-color: #ececec;
@@ -45,7 +44,12 @@
   letter-spacing: 0.02em;
   text-decoration: none;
 }
-
+.link svg {
+  fill: var(--seconadary-text-color);
+  margin-right: 10px;
+  width: 16px;
+  height: 12px;
+}
 .navigation .link:hover,
 .navigation .link:focus {
   color: var(--background-color-blue);
@@ -263,19 +267,25 @@ span {
 }
 /* index */
 .main-title {
-  width: 1600px;
+  background-size: contain;
+  max-width: 1600px;
   height: 600px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  background: #2f303a;
+  background-color: #c4c4c4;
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url('../images/img4.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .title {
   padding: 199px 447px 30px 457px;
   margin: 0px;
   /* margin-bottom: 30px; */
-  background: #2f303a;
+  /* background: #2f303a; */
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
@@ -298,27 +308,25 @@ span {
   border-radius: 4px;
 }
 .features {
-  margin-top: 34px;
-  margin-bottom: 94px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 94px 15px 94px 15px;
   width: 1200px;
-  display: flex;
   margin-left: auto;
   margin-right: auto;
 }
-.features li {
-  width: 270px;
-  height: 101px;
+.features ul {
+  padding: 0px;
+  display: flex;
+  list-style: none;
 }
+
 .features li:not(:last-child) {
   width: 270px;
-  height: 101px;
   margin-right: 30px;
 }
 .features h3 {
   margin: 0px;
   margin-bottom: 10px;
+  padding-top: 30px;
   color: var(--text-color);
   font-style: normal;
   font-weight: bold;
@@ -328,6 +336,7 @@ span {
   text-transform: uppercase;
 }
 .features p {
+  width: 270px;
   margin: 0px;
   color: #757575;
   font-style: normal;
@@ -425,3 +434,29 @@ h2 {
   text-align: center;
   letter-spacing: 0.03em;
 }
+
+/* иконки */
+.icons-antenna {
+  padding-bottom: 30px;
+  display: flex;
+  width: 270px;
+  height: 120px;
+  /* background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center; */
+  background-color: #f5f4fa;
+}
+.icon {
+  display: flex;
+}
+/* .antenna::before {
+  background-image: url('../images/svg/antenna.svg');
+}
+
+.antenna {
+  display: inline-block;
+  width: 65, 32px;
+  height: 70px;
+  background-image: url('../images/svg/antenna.svg');
+  background-size: 20px;
+} */
