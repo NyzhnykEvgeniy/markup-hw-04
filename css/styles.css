@@ -414,11 +414,11 @@ span {
 .dream-team li:not(:last-child) {
   margin-right: 30px;
 }
-.team h2 {
+/* .team h2 {
   margin: 0px;
   padding-top: 94px;
   padding-bottom: 50px;
-}
+} */
 h2 {
   color: var(--text-color);
   font-style: normal;
@@ -430,8 +430,8 @@ h2 {
 }
 .team h3 {
   margin: 0pc;
-  padding-top: 30px;
-  padding-bottom: 10px;
+  /* padding-top: 30px;
+  padding-bottom: 10px; */
   color: var(--text-color);
   font-style: normal;
   font-weight: 500;
