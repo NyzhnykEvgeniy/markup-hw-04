@@ -45,10 +45,13 @@
   text-decoration: none;
 }
 .link svg {
-  fill: var(--seconadary-text-color);
+  fill: #757575;
   margin-right: 10px;
   width: 16px;
   height: 12px;
+}
+.link svg:hover {
+  color: var(--background-color-blue);
 }
 .navigation .link:hover,
 .navigation .link:focus {
@@ -436,18 +439,28 @@ h2 {
 }
 
 /* иконки */
-.icons-antenna {
-  padding-bottom: 30px;
+.icons-antenna,
+.icons-clock,
+.icons-diagram,
+.icons-astronaut {
   display: flex;
   width: 270px;
   height: 120px;
+  padding-top: 25px;
+  padding-bottom: 25px;
   /* background-size: contain;
   background-repeat: no-repeat;
   background-position: center; */
   background-color: #f5f4fa;
+  align-items: center;
+  justify-content: center;
 }
 .icon {
   display: flex;
+}
+.icon svg {
+  width: 70px;
+  height: 70px;
 }
 /* .antenna::before {
   background-image: url('../images/svg/antenna.svg');
