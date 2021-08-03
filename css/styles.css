@@ -47,11 +47,9 @@
 .link svg {
   fill: #757575;
   margin-right: 10px;
-  width: 16px;
-  height: 12px;
 }
-.link svg:hover {
-  color: var(--background-color-blue);
+.link:hover svg {
+  fill: var(--background-color-blue);
 }
 .navigation .link:hover,
 .navigation .link:focus {
@@ -391,34 +389,30 @@ span {
   padding: 0px;
   display: flex;
   width: 1170px;
-  /* height: 428px; */
+  height: 428px;
 }
 .name {
   padding-top: 30px;
   padding-bottom: 30px;
   text-align: center;
 }
-.our-dream-team {
-  background: #ffffff;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  border-radius: 0px 0px 4px 4px;
-}
-.dream-team li {
+
+.team-list {
   margin-left: auto;
   margin-right: auto;
-  /* border-radius: 4px; */
-  /* padding-left: 15px;
-  padding-right: 15px; */
+  border-radius: 0px 0px 4px 4px;
   list-style: none;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 .dream-team li:not(:last-child) {
   margin-right: 30px;
 }
-/* .team h2 {
+.team h2 {
   margin: 0px;
   padding-top: 94px;
   padding-bottom: 50px;
-} */
+}
 h2 {
   color: var(--text-color);
   font-style: normal;
@@ -430,13 +424,13 @@ h2 {
 }
 .team h3 {
   margin: 0pc;
-  /* padding-top: 30px;
-  padding-bottom: 10px; */
+  padding-top: 30px;
+  padding-bottom: 10px;
   color: var(--text-color);
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  /* line-height: 1.18; */
+  line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -475,14 +469,54 @@ h2 {
   width: 70px;
   height: 70px;
 }
-/* .antenna::before {
-  background-image: url('../images/svg/antenna.svg');
+/* Наша команда иконки соцсети */
+
+.icon-social {
+  display: flex;
+  justify-content: space-between;
 }
 
-.antenna {
-  display: inline-block;
-  width: 65, 32px;
-  height: 70px;
-  background-image: url('../images/svg/antenna.svg');
-  background-size: 20px;
+.icon-social {
+  margin-top: 0px;
+  padding: 16px 32px 30px 32px;
+
+  
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-list {
+  list-style: none;
+  /* fill: #afb1b8; */
+  border: none;
+  /* align-items: center; */
+}
+/* .social-list:hover svg {
+  background-color: #2196f3;
+  /* background-position: center; */
+  border-radius: 50%; */
+}
+/* .icon-social-list:hover {
+  /* fill: #FFFFFF; */
+  /* width: 44px;
+  height: 44px; */
+  background-color: #2196f3;
+  /* display: flex; */
+  /* align-items: center; */
 } */
+.social-icon{
+  fill: #afb1b8;
+}
+.social-icon:hover{
+  fill: #FFFFFF;
+  background-color: #2196f3;
+}
+.icon-social-list {
+  width: 200px;
+  height: 200px;
+  background-color: #2196f3;
+  border-radius: 50%;
+  background-position: center;
+}
