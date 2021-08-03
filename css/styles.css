@@ -476,17 +476,16 @@ h2 {
   fill: #afb1b8;
   margin-top: 16px;
 }
-.icon-social-list:hover {
+.icon-social-list {
   width: 44px;
   height: 44px;
-  background: #2196f3;
-  fill: #ffffff;
+
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 50%;
 }
-.social-icon {
-  display: flex;
-  align-items: center;
+.icon-social-list:hover {
+  background: #2196f3;
+  fill: #ffffff;
 }
