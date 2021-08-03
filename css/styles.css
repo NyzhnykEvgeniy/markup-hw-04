@@ -528,9 +528,10 @@ h2 {
   align-items: center;
   justify-content: center;
 }
-.clients-icon:hover {
+.clients-icon:hover svg {
+  fill: #2196f3;
   border: 1px solid #2196f3;
 }
-.icon-list:hover {
+/* .icon-list:hover {
   fill: #2196f3;
-}
+} */
