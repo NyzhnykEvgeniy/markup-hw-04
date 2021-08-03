@@ -497,7 +497,8 @@ h2 {
   justify-content: center;
   border-radius: 50%;
 }
-.icon-social-list:hover {
+.icon-social-list:hover,
+.icon-social-list:focus {
   background: #2196f3;
   fill: #ffffff;
 }
@@ -528,7 +529,7 @@ h2 {
   align-items: center;
   justify-content: center;
 }
-.clients-icon:hover svg {
+.clients-icon:hover {
   fill: #2196f3;
   border: 1px solid #2196f3;
 }
