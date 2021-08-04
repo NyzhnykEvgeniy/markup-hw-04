@@ -119,22 +119,6 @@ span {
   color: var(--background-color-site);
   display: flex;
 }
-.connect {
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  margin: 0px;
-  padding: 0px;
-  margin-bottom: 20px;
-  color: #ffffff;
-}
-.connect-list {
-  width: 206px;
-  height: 80px;
-  margin-top: 12px;
-  margin-left: 70px;
-}
 .contacts .logo {
   padding-left: 215px;
   color: var(--background-color-site);
@@ -144,6 +128,35 @@ span {
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
+.connect-box {
+  width: 206px;
+  height: 80px;
+  margin-top: 12px;
+  margin-left: 70px;
+}
+.connect {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+.icon-connect {
+  display: flex;
+  justify-content: space-between;
+}
+.connect-list:not(:last-child) {
+  margin-right: 10px;
+}
+.icon-connect-list {
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+}
+
 .direction {
   margin-top: 20px;
   padding-left: 215px;
