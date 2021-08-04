@@ -82,8 +82,6 @@ span {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
-  /* outline: 1px solid tomato; */
-  /* margin-right: 50px; */
 }
 
 .page .item:not(:last-child) {
@@ -119,7 +117,23 @@ span {
   height: 252px;
   background: #2f303a;
   color: var(--background-color-site);
-  /* text-indent: 50px; */
+  display: flex;
+}
+.connect {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+.connect-list {
+  width: 206px;
+  height: 80px;
+  margin-top: 12px;
+  margin-left: 70px;
 }
 .contacts .logo {
   padding-left: 215px;
@@ -166,9 +180,6 @@ span {
 }
 
 .filter {
-  /* padding-left: 495px;
-  padding-right: 494px; */
-  /* justify-content: center; */
   padding: 0px;
   margin-top: 94px;
   margin-bottom: 34px;
@@ -287,8 +298,6 @@ span {
 .title {
   padding: 199px 447px 30px 457px;
   margin: 0px;
-  /* margin-bottom: 30px; */
-  /* background: #2f303a; */
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
@@ -373,7 +382,6 @@ span {
 /* Наща команда */
 
 .team {
-  /* height: 648px; */
   background: #f5f4fa;
   padding-left: 215px;
   padding-right: 215px;
@@ -457,9 +465,6 @@ h2 {
   height: 120px;
   padding-top: 25px;
   padding-bottom: 25px;
-  /* background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center; */
   background-color: #f5f4fa;
   align-items: center;
   justify-content: center;
@@ -480,15 +485,6 @@ h2 {
   margin-top: 16px;
   padding: 0 32px;
 }
-/* .list {
-  margin: 0px;
-  padding: 0px;
-  padding: 0 32px;
-  justify-content: space-between;
-} */
-/* .social-list {
-  justify-content: space-between;
-} */
 .icon-social-list {
   width: 44px;
   height: 44px;
@@ -503,6 +499,7 @@ h2 {
   fill: #ffffff;
 }
 /* Постоянные клиенты */
+
 .clients-block {
   margin: 0px;
   padding: 0px;
@@ -522,17 +519,21 @@ h2 {
 .clients-icon {
   width: 170px;
   height: 92px;
-  border: 1px solid #afb1b8;
-  box-sizing: border-box;
-  border-radius: 4px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
-.clients-icon:hover {
+.icon-list:hover,
+.icon-list:focus {
   fill: #2196f3;
   border: 1px solid #2196f3;
 }
-/* .icon-list:hover {
-  fill: #2196f3;
-} */
+.icon-list {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  /* padding: 16px 32px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: #afb1b8;
+}
